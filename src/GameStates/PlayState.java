@@ -111,7 +111,7 @@ public class PlayState extends BasicGameState{
 		
 		customButtons.add(new CustomButton(673,73,113,70,"Buy", font2, Color.green, Color.gray, 3));
 		
-		String file = "C:/Users/15RSeifert/workspace/Tower Defense 2/bin/Maps/map1";
+		String file = "C:/Users/Ryan/workspace/Tower Defense 2/bin/Maps/map1";
 		try {
 			tiles = getMap(file);
 		} catch (NumberFormatException e) {
